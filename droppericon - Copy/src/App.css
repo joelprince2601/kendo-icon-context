@@ -1,0 +1,58 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.k-grid .k-chip {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.k-chip-filled.k-chip-success {
+  background-color: #28a745;
+  color: rgb(255, 255, 255);
+}
+
+.k-chip-content {
+  padding: 4px 12px;
+}
+
+
+.k-header .icon-hover {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.k-header:hover .icon-hover {
+  display: block;
+}
+
+
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.context-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.context-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.context-menu li:hover {
+  background: #f0f0f0;
+}
